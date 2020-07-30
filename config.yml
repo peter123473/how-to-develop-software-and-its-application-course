@@ -1,0 +1,18 @@
+title: ' how to develop software and its application'
+description: >-
+  to develop software is to create a software that can be used in a company or
+  any organization. 
+template:
+  repo: how-to-develop-software-and-its-application-template
+  name: how-to-develop-software-and-its-application
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
